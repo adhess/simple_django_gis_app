@@ -18,6 +18,7 @@ scrapy_user_agents = "*"
 django-extensions = "*"
 gunicorn = "*"
 dj-database-url = "*"
+pytest = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
