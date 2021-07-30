@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+django-heroku = "*"
+psycopg2 = "*"
+djangorestframework-recursive = "*"
+pytest-django = "*"
+itemadapter = "*"
+scrapy_user_agents = "*"
+django-extensions = "*"
+gunicorn = "*"
+dj-database-url = "*"
+
+[requires]
+python_version = "3.8"
