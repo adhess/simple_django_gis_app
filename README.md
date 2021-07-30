@@ -7,7 +7,7 @@ This project is a Python Engineer Coding Test provided by mozio.
 Provider ----- ServiceArea ----- Coordinate
 ```
 
-A Provider have multiple ServiceArea.
+A Provider has multiple ServiceArea.
 
 Each ServiceArea has multiple Coordinates to make the Polygon.
 
@@ -33,7 +33,7 @@ You can access the application using [this link](https://mozio-gis.herokuapp.com
     https://mozio-gis.herokuapp.com/api/coordinates_by_service_area/?service_area_id=2
 ```
 
-## Install dependency
+## Install dependencies
 ```
 pip install pipenv
 pipenv install

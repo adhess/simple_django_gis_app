@@ -38,7 +38,7 @@ class ServiceAreasByProviderViewSet(APIView):
         return Response(data)
 
 
-class CoordinatesByServiceAreaViewSet(APIView):
+class CoordinatesByServiceArea(APIView):
     serializer_class = CoordinateSerializer
     permission_classes = [permissions.AllowAny]
 
